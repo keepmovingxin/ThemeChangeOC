@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF22FDF1CAD5C350000FA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF22FDE1CAD5C350000FA68 /* main.m */; };
+		8CF22FE21CAD5C350000FA68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF22FE11CAD5C350000FA68 /* AppDelegate.m */; };
+		8CF22FE51CAD5C350000FA68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF22FE41CAD5C350000FA68 /* ViewController.m */; };
+		8CF22FE81CAD5C350000FA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF22FE61CAD5C350000FA68 /* Main.storyboard */; };
+		8CF22FEA1CAD5C350000FA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF22FE91CAD5C350000FA68 /* Assets.xcassets */; };
+		8CF22FED1CAD5C350000FA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF22FEB1CAD5C350000FA68 /* LaunchScreen.storyboard */; };
+		8CF22FF81CAD5C350000FA68 /* ThemeChangeOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF22FF71CAD5C350000FA68 /* ThemeChangeOCTests.m */; };
+		8CF230031CAD5C350000FA68 /* ThemeChangeOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF230021CAD5C350000FA68 /* ThemeChangeOCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF22FF41CAD5C350000FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF22FD21CAD5C350000FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF22FD91CAD5C350000FA68;
+			remoteInfo = ThemeChangeOC;
+		};
+		8CF22FFF1CAD5C350000FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF22FD21CAD5C350000FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF22FD91CAD5C350000FA68;
+			remoteInfo = ThemeChangeOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CF22FDA1CAD5C350000FA68 /* ThemeChangeOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeChangeOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF22FDE1CAD5C350000FA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CF22FE01CAD5C350000FA68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CF22FE11CAD5C350000FA68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CF22FE31CAD5C350000FA68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CF22FE41CAD5C350000FA68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CF22FE71CAD5C350000FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF22FE91CAD5C350000FA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF22FEC1CAD5C350000FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CF22FEE1CAD5C350000FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF22FF31CAD5C350000FA68 /* ThemeChangeOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF22FF71CAD5C350000FA68 /* ThemeChangeOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeOCTests.m; sourceTree = "<group>"; };
+		8CF22FF91CAD5C350000FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF22FFE1CAD5C350000FA68 /* ThemeChangeOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF230021CAD5C350000FA68 /* ThemeChangeOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeOCUITests.m; sourceTree = "<group>"; };
+		8CF230041CAD5C350000FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF22FD71CAD5C350000FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF22FF01CAD5C350000FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF22FFB1CAD5C350000FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF22FD11CAD5C350000FA68 = {
+			isa = PBXGroup;
+			children = (
+				8CF22FDC1CAD5C350000FA68 /* ThemeChangeOC */,
+				8CF22FF61CAD5C350000FA68 /* ThemeChangeOCTests */,
+				8CF230011CAD5C350000FA68 /* ThemeChangeOCUITests */,
+				8CF22FDB1CAD5C350000FA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF22FDB1CAD5C350000FA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF22FDA1CAD5C350000FA68 /* ThemeChangeOC.app */,
+				8CF22FF31CAD5C350000FA68 /* ThemeChangeOCTests.xctest */,
+				8CF22FFE1CAD5C350000FA68 /* ThemeChangeOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF22FDC1CAD5C350000FA68 /* ThemeChangeOC */ = {
+			isa = PBXGroup;
+			children = (
+				8CF22FE01CAD5C350000FA68 /* AppDelegate.h */,
+				8CF22FE11CAD5C350000FA68 /* AppDelegate.m */,
+				8CF22FE31CAD5C350000FA68 /* ViewController.h */,
+				8CF22FE41CAD5C350000FA68 /* ViewController.m */,
+				8CF22FE61CAD5C350000FA68 /* Main.storyboard */,
+				8CF22FE91CAD5C350000FA68 /* Assets.xcassets */,
+				8CF22FEB1CAD5C350000FA68 /* LaunchScreen.storyboard */,
+				8CF22FEE1CAD5C350000FA68 /* Info.plist */,
+				8CF22FDD1CAD5C350000FA68 /* Supporting Files */,
+			);
+			path = ThemeChangeOC;
+			sourceTree = "<group>";
+		};
+		8CF22FDD1CAD5C350000FA68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CF22FDE1CAD5C350000FA68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CF22FF61CAD5C350000FA68 /* ThemeChangeOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF22FF71CAD5C350000FA68 /* ThemeChangeOCTests.m */,
+				8CF22FF91CAD5C350000FA68 /* Info.plist */,
+			);
+			path = ThemeChangeOCTests;
+			sourceTree = "<group>";
+		};
+		8CF230011CAD5C350000FA68 /* ThemeChangeOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF230021CAD5C350000FA68 /* ThemeChangeOCUITests.m */,
+				8CF230041CAD5C350000FA68 /* Info.plist */,
+			);
+			path = ThemeChangeOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF22FD91CAD5C350000FA68 /* ThemeChangeOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF230071CAD5C350000FA68 /* Build configuration list for PBXNativeTarget "ThemeChangeOC" */;
+			buildPhases = (
+				8CF22FD61CAD5C350000FA68 /* Sources */,
+				8CF22FD71CAD5C350000FA68 /* Frameworks */,
+				8CF22FD81CAD5C350000FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeChangeOC;
+			productName = ThemeChangeOC;
+			productReference = 8CF22FDA1CAD5C350000FA68 /* ThemeChangeOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CF22FF21CAD5C350000FA68 /* ThemeChangeOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF2300A1CAD5C350000FA68 /* Build configuration list for PBXNativeTarget "ThemeChangeOCTests" */;
+			buildPhases = (
+				8CF22FEF1CAD5C350000FA68 /* Sources */,
+				8CF22FF01CAD5C350000FA68 /* Frameworks */,
+				8CF22FF11CAD5C350000FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF22FF51CAD5C350000FA68 /* PBXTargetDependency */,
+			);
+			name = ThemeChangeOCTests;
+			productName = ThemeChangeOCTests;
+			productReference = 8CF22FF31CAD5C350000FA68 /* ThemeChangeOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CF22FFD1CAD5C350000FA68 /* ThemeChangeOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF2300D1CAD5C350000FA68 /* Build configuration list for PBXNativeTarget "ThemeChangeOCUITests" */;
+			buildPhases = (
+				8CF22FFA1CAD5C350000FA68 /* Sources */,
+				8CF22FFB1CAD5C350000FA68 /* Frameworks */,
+				8CF22FFC1CAD5C350000FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF230001CAD5C350000FA68 /* PBXTargetDependency */,
+			);
+			name = ThemeChangeOCUITests;
+			productName = ThemeChangeOCUITests;
+			productReference = 8CF22FFE1CAD5C350000FA68 /* ThemeChangeOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF22FD21CAD5C350000FA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KP_LGX;
+				TargetAttributes = {
+					8CF22FD91CAD5C350000FA68 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MTYBMZYSKL;
+					};
+					8CF22FF21CAD5C350000FA68 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MTYBMZYSKL;
+						TestTargetID = 8CF22FD91CAD5C350000FA68;
+					};
+					8CF22FFD1CAD5C350000FA68 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MTYBMZYSKL;
+						TestTargetID = 8CF22FD91CAD5C350000FA68;
+					};
+				};
+			};
+			buildConfigurationList = 8CF22FD51CAD5C350000FA68 /* Build configuration list for PBXProject "ThemeChangeOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF22FD11CAD5C350000FA68;
+			productRefGroup = 8CF22FDB1CAD5C350000FA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF22FD91CAD5C350000FA68 /* ThemeChangeOC */,
+				8CF22FF21CAD5C350000FA68 /* ThemeChangeOCTests */,
+				8CF22FFD1CAD5C350000FA68 /* ThemeChangeOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF22FD81CAD5C350000FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF22FED1CAD5C350000FA68 /* LaunchScreen.storyboard in Resources */,
+				8CF22FEA1CAD5C350000FA68 /* Assets.xcassets in Resources */,
+				8CF22FE81CAD5C350000FA68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF22FF11CAD5C350000FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF22FFC1CAD5C350000FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF22FD61CAD5C350000FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF22FE51CAD5C350000FA68 /* ViewController.m in Sources */,
+				8CF22FE21CAD5C350000FA68 /* AppDelegate.m in Sources */,
+				8CF22FDF1CAD5C350000FA68 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF22FEF1CAD5C350000FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF22FF81CAD5C350000FA68 /* ThemeChangeOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF22FFA1CAD5C350000FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF230031CAD5C350000FA68 /* ThemeChangeOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF22FF51CAD5C350000FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF22FD91CAD5C350000FA68 /* ThemeChangeOC */;
+			targetProxy = 8CF22FF41CAD5C350000FA68 /* PBXContainerItemProxy */;
+		};
+		8CF230001CAD5C350000FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF22FD91CAD5C350000FA68 /* ThemeChangeOC */;
+			targetProxy = 8CF22FFF1CAD5C350000FA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CF22FE61CAD5C350000FA68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF22FE71CAD5C350000FA68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CF22FEB1CAD5C350000FA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF22FEC1CAD5C350000FA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF230051CAD5C350000FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CF230061CAD5C350000FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF230081CAD5C350000FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThemeChangeOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keepmoving.ThemeChangeOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF230091CAD5C350000FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThemeChangeOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keepmoving.ThemeChangeOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CF2300B1CAD5C350000FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThemeChangeOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keepmoving.ThemeChangeOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeChangeOC.app/ThemeChangeOC";
+			};
+			name = Debug;
+		};
+		8CF2300C1CAD5C350000FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThemeChangeOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keepmoving.ThemeChangeOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeChangeOC.app/ThemeChangeOC";
+			};
+			name = Release;
+		};
+		8CF2300E1CAD5C350000FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThemeChangeOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keepmoving.ThemeChangeOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeChangeOC;
+			};
+			name = Debug;
+		};
+		8CF2300F1CAD5C350000FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ThemeChangeOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keepmoving.ThemeChangeOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeChangeOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF22FD51CAD5C350000FA68 /* Build configuration list for PBXProject "ThemeChangeOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF230051CAD5C350000FA68 /* Debug */,
+				8CF230061CAD5C350000FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF230071CAD5C350000FA68 /* Build configuration list for PBXNativeTarget "ThemeChangeOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF230081CAD5C350000FA68 /* Debug */,
+				8CF230091CAD5C350000FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CF2300A1CAD5C350000FA68 /* Build configuration list for PBXNativeTarget "ThemeChangeOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF2300B1CAD5C350000FA68 /* Debug */,
+				8CF2300C1CAD5C350000FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CF2300D1CAD5C350000FA68 /* Build configuration list for PBXNativeTarget "ThemeChangeOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF2300E1CAD5C350000FA68 /* Debug */,
+				8CF2300F1CAD5C350000FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF22FD21CAD5C350000FA68 /* Project object */;
+}
