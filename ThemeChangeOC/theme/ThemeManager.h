@@ -24,6 +24,6 @@
 
 -(UIImage *)getThemeImage:(NSString *)imageName;
 
-- (UIColor *)getColorWithName:(NSString *)name;
+-(UIColor *)getColorWithName:(NSString *)name;
 
 @end
