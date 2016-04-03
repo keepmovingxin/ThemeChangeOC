@@ -1,0 +1,1 @@
+iOS 利用通知NSNotificationCenter和NSUserDefaults实现主题切换

@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  ThemeChangeOC
 //
-//  Created by 刘国新 on 16/3/31.
+//  Created by KP_LGX on 16/3/31.
 //  Copyright © 2016年 KP_LGX. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ThemeManager.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,15 @@
 
 @implementation AppDelegate
 
+- (void)initTheme {
+    NSString *themeName = [[NSUserDefaults standardUserDefaults] objectForKey:kThemeName];
+    [[ThemeManager shareInstance] setThemeName:themeName];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // Initializate Theme Name 
+    [self initTheme];
     return YES;
 }
 

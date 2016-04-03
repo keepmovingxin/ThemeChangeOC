@@ -1,8 +1,8 @@
 //
 //  themeConst.h
 //  ThemeChangeOC
-//
-//  Created by 刘国新 on 16/3/31.
+//  常量宏定义
+//  Created by KP_LGX on 16/3/31.
 //  Copyright © 2016年 KP_LGX. All rights reserved.
 //
 
@@ -11,3 +11,12 @@
 
 
 #endif /* themeConst_h */
+
+#define ScreenHeight  [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth  [[UIScreen mainScreen] bounds].size.width
+
+#define kThemeName @"kThemeName"
+
+// font color keys
+#define kNavigationBarTitleLabel @"kNavigationBarTitleLabel"
+#define kThemeListLabel @"kThemeListLabel"

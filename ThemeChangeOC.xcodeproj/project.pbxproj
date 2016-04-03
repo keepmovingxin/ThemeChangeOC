@@ -15,6 +15,27 @@
 		8CF22FED1CAD5C350000FA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF22FEB1CAD5C350000FA68 /* LaunchScreen.storyboard */; };
 		8CF22FF81CAD5C350000FA68 /* ThemeChangeOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF22FF71CAD5C350000FA68 /* ThemeChangeOCTests.m */; };
 		8CF230031CAD5C350000FA68 /* ThemeChangeOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF230021CAD5C350000FA68 /* ThemeChangeOCUITests.m */; };
+		8CF230161CAD5D630000FA68 /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF230151CAD5D630000FA68 /* ThemeManager.m */; };
+		8CF230191CAD5FBC0000FA68 /* ThemeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF230181CAD5FBC0000FA68 /* ThemeButton.m */; };
+		8CF2301C1CAD60AE0000FA68 /* ThemeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2301B1CAD60AE0000FA68 /* ThemeImageView.m */; };
+		8CF2301F1CAD60CB0000FA68 /* ThemeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2301E1CAD60CB0000FA68 /* ThemeLabel.m */; };
+		8CF230221CAD61430000FA68 /* ThemeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF230211CAD61430000FA68 /* ThemeUtil.m */; };
+		8CF230251CAD64AB0000FA68 /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF230241CAD64AB0000FA68 /* ThemeViewController.m */; };
+		8CF230281CAD685C0000FA68 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF230271CAD685C0000FA68 /* background.png */; };
+		8CF2302B1CAD6D0B0000FA68 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2302A1CAD6D0B0000FA68 /* HomeViewController.m */; };
+		8CF230301CB0B5C90000FA68 /* navigationbar_back_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2302C1CB0B5C90000FA68 /* navigationbar_back_highlighted.png */; };
+		8CF230311CB0B5C90000FA68 /* navigationbar_back_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2302D1CB0B5C90000FA68 /* navigationbar_back_highlighted@2x.png */; };
+		8CF230321CB0B5C90000FA68 /* navigationbar_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2302E1CB0B5C90000FA68 /* navigationbar_back.png */; };
+		8CF230331CB0B5C90000FA68 /* navigationbar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2302F1CB0B5C90000FA68 /* navigationbar_back@2x.png */; };
+		8CF230351CB0B5D50000FA68 /* Skins in Resources */ = {isa = PBXBuildFile; fileRef = 8CF230341CB0B5D50000FA68 /* Skins */; };
+		8CF230381CB0B6D60000FA68 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF230361CB0B6D60000FA68 /* title_logo.png */; };
+		8CF230391CB0B6D60000FA68 /* title_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF230371CB0B6D60000FA68 /* title_logo@2x.png */; };
+		8CF2303E1CB0BD6C0000FA68 /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2303A1CB0BD6C0000FA68 /* button_background.png */; };
+		8CF2303F1CB0BD6C0000FA68 /* button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2303B1CB0BD6C0000FA68 /* button_background@2x.png */; };
+		8CF230401CB0BD6C0000FA68 /* button_delete_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2303C1CB0BD6C0000FA68 /* button_delete_background.png */; };
+		8CF230411CB0BD6C0000FA68 /* button_delete_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2303D1CB0BD6C0000FA68 /* button_delete_background@2x.png */; };
+		8CF230441CB0C2220000FA68 /* fontColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CF230421CB0C2220000FA68 /* fontColor.plist */; };
+		8CF230451CB0C2220000FA68 /* theme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CF230431CB0C2220000FA68 /* theme.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,35 @@
 		8CF22FFE1CAD5C350000FA68 /* ThemeChangeOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeChangeOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF230021CAD5C350000FA68 /* ThemeChangeOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeChangeOCUITests.m; sourceTree = "<group>"; };
 		8CF230041CAD5C350000FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF230141CAD5D630000FA68 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		8CF230151CAD5D630000FA68 /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		8CF230171CAD5FBC0000FA68 /* ThemeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeButton.h; sourceTree = "<group>"; };
+		8CF230181CAD5FBC0000FA68 /* ThemeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeButton.m; sourceTree = "<group>"; };
+		8CF2301A1CAD60AE0000FA68 /* ThemeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeImageView.h; sourceTree = "<group>"; };
+		8CF2301B1CAD60AE0000FA68 /* ThemeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeImageView.m; sourceTree = "<group>"; };
+		8CF2301D1CAD60CB0000FA68 /* ThemeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeLabel.h; sourceTree = "<group>"; };
+		8CF2301E1CAD60CB0000FA68 /* ThemeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeLabel.m; sourceTree = "<group>"; };
+		8CF230201CAD61430000FA68 /* ThemeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeUtil.h; sourceTree = "<group>"; };
+		8CF230211CAD61430000FA68 /* ThemeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeUtil.m; sourceTree = "<group>"; };
+		8CF230231CAD64AB0000FA68 /* ThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
+		8CF230241CAD64AB0000FA68 /* ThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeViewController.m; sourceTree = "<group>"; };
+		8CF230261CAD66EC0000FA68 /* themeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = themeConst.h; sourceTree = "<group>"; };
+		8CF230271CAD685C0000FA68 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8CF230291CAD6D0B0000FA68 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8CF2302A1CAD6D0B0000FA68 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8CF2302C1CB0B5C90000FA68 /* navigationbar_back_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_back_highlighted.png; sourceTree = "<group>"; };
+		8CF2302D1CB0B5C90000FA68 /* navigationbar_back_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back_highlighted@2x.png"; sourceTree = "<group>"; };
+		8CF2302E1CB0B5C90000FA68 /* navigationbar_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbar_back.png; sourceTree = "<group>"; };
+		8CF2302F1CB0B5C90000FA68 /* navigationbar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back@2x.png"; sourceTree = "<group>"; };
+		8CF230341CB0B5D50000FA68 /* Skins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Skins; sourceTree = "<group>"; };
+		8CF230361CB0B6D60000FA68 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		8CF230371CB0B6D60000FA68 /* title_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title_logo@2x.png"; sourceTree = "<group>"; };
+		8CF2303A1CB0BD6C0000FA68 /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		8CF2303B1CB0BD6C0000FA68 /* button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		8CF2303C1CB0BD6C0000FA68 /* button_delete_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_delete_background.png; sourceTree = "<group>"; };
+		8CF2303D1CB0BD6C0000FA68 /* button_delete_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_delete_background@2x.png"; sourceTree = "<group>"; };
+		8CF230421CB0C2220000FA68 /* fontColor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fontColor.plist; sourceTree = "<group>"; };
+		8CF230431CB0C2220000FA68 /* theme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = theme.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +155,13 @@
 				8CF22FE11CAD5C350000FA68 /* AppDelegate.m */,
 				8CF22FE31CAD5C350000FA68 /* ViewController.h */,
 				8CF22FE41CAD5C350000FA68 /* ViewController.m */,
+				8CF230291CAD6D0B0000FA68 /* HomeViewController.h */,
+				8CF2302A1CAD6D0B0000FA68 /* HomeViewController.m */,
+				8CF230231CAD64AB0000FA68 /* ThemeViewController.h */,
+				8CF230241CAD64AB0000FA68 /* ThemeViewController.m */,
 				8CF22FE61CAD5C350000FA68 /* Main.storyboard */,
+				8CF230101CAD5D0D0000FA68 /* theme */,
+				8CF230131CAD5D180000FA68 /* Resources */,
 				8CF22FE91CAD5C350000FA68 /* Assets.xcassets */,
 				8CF22FEB1CAD5C350000FA68 /* LaunchScreen.storyboard */,
 				8CF22FEE1CAD5C350000FA68 /* Info.plist */,
@@ -138,6 +194,45 @@
 				8CF230041CAD5C350000FA68 /* Info.plist */,
 			);
 			path = ThemeChangeOCUITests;
+			sourceTree = "<group>";
+		};
+		8CF230101CAD5D0D0000FA68 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				8CF230141CAD5D630000FA68 /* ThemeManager.h */,
+				8CF230151CAD5D630000FA68 /* ThemeManager.m */,
+				8CF2301D1CAD60CB0000FA68 /* ThemeLabel.h */,
+				8CF2301E1CAD60CB0000FA68 /* ThemeLabel.m */,
+				8CF230171CAD5FBC0000FA68 /* ThemeButton.h */,
+				8CF230181CAD5FBC0000FA68 /* ThemeButton.m */,
+				8CF2301A1CAD60AE0000FA68 /* ThemeImageView.h */,
+				8CF2301B1CAD60AE0000FA68 /* ThemeImageView.m */,
+				8CF230201CAD61430000FA68 /* ThemeUtil.h */,
+				8CF230211CAD61430000FA68 /* ThemeUtil.m */,
+				8CF230261CAD66EC0000FA68 /* themeConst.h */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		8CF230131CAD5D180000FA68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CF230421CB0C2220000FA68 /* fontColor.plist */,
+				8CF230431CB0C2220000FA68 /* theme.plist */,
+				8CF2303A1CB0BD6C0000FA68 /* button_background.png */,
+				8CF2303B1CB0BD6C0000FA68 /* button_background@2x.png */,
+				8CF2303C1CB0BD6C0000FA68 /* button_delete_background.png */,
+				8CF2303D1CB0BD6C0000FA68 /* button_delete_background@2x.png */,
+				8CF230361CB0B6D60000FA68 /* title_logo.png */,
+				8CF230371CB0B6D60000FA68 /* title_logo@2x.png */,
+				8CF230271CAD685C0000FA68 /* background.png */,
+				8CF2302C1CB0B5C90000FA68 /* navigationbar_back_highlighted.png */,
+				8CF2302D1CB0B5C90000FA68 /* navigationbar_back_highlighted@2x.png */,
+				8CF2302E1CB0B5C90000FA68 /* navigationbar_back.png */,
+				8CF2302F1CB0B5C90000FA68 /* navigationbar_back@2x.png */,
+				8CF230341CB0B5D50000FA68 /* Skins */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +341,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF230311CB0B5C90000FA68 /* navigationbar_back_highlighted@2x.png in Resources */,
+				8CF230281CAD685C0000FA68 /* background.png in Resources */,
 				8CF22FED1CAD5C350000FA68 /* LaunchScreen.storyboard in Resources */,
+				8CF230451CB0C2220000FA68 /* theme.plist in Resources */,
+				8CF230381CB0B6D60000FA68 /* title_logo.png in Resources */,
+				8CF230401CB0BD6C0000FA68 /* button_delete_background.png in Resources */,
+				8CF2303E1CB0BD6C0000FA68 /* button_background.png in Resources */,
+				8CF2303F1CB0BD6C0000FA68 /* button_background@2x.png in Resources */,
 				8CF22FEA1CAD5C350000FA68 /* Assets.xcassets in Resources */,
+				8CF230411CB0BD6C0000FA68 /* button_delete_background@2x.png in Resources */,
+				8CF230301CB0B5C90000FA68 /* navigationbar_back_highlighted.png in Resources */,
+				8CF230321CB0B5C90000FA68 /* navigationbar_back.png in Resources */,
+				8CF230391CB0B6D60000FA68 /* title_logo@2x.png in Resources */,
+				8CF230351CB0B5D50000FA68 /* Skins in Resources */,
+				8CF230331CB0B5C90000FA68 /* navigationbar_back@2x.png in Resources */,
+				8CF230441CB0C2220000FA68 /* fontColor.plist in Resources */,
 				8CF22FE81CAD5C350000FA68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +382,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF2301C1CAD60AE0000FA68 /* ThemeImageView.m in Sources */,
 				8CF22FE51CAD5C350000FA68 /* ViewController.m in Sources */,
+				8CF230251CAD64AB0000FA68 /* ThemeViewController.m in Sources */,
+				8CF2302B1CAD6D0B0000FA68 /* HomeViewController.m in Sources */,
+				8CF230191CAD5FBC0000FA68 /* ThemeButton.m in Sources */,
 				8CF22FE21CAD5C350000FA68 /* AppDelegate.m in Sources */,
 				8CF22FDF1CAD5C350000FA68 /* main.m in Sources */,
+				8CF2301F1CAD60CB0000FA68 /* ThemeLabel.m in Sources */,
+				8CF230161CAD5D630000FA68 /* ThemeManager.m in Sources */,
+				8CF230221CAD61430000FA68 /* ThemeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
