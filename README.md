@@ -15,12 +15,12 @@ iOS 利用通知NSNotificationCenter和NSUserDefaults实现主题切换
 · ThemeManager  主题管理类:单例，用于主题管理和本地存储
 · ThemeLabel 自定义主题Button 可根据主题切换图片和背景图片
 · ThemeButton 自定义主题Label 可根据主题切换图片
-
 · ThemeImageView 自定义主题ImageView 可根据主题切换字体颜色
 · ThemeUtil  主题UI创建工具类:封装主题Label、Button、ImageView工厂创建方法
 
 ·ThemeManager 管理方法：
 
+```Objective-C
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
@@ -38,24 +38,27 @@ iOS 利用通知NSNotificationCenter和NSUserDefaults实现主题切换
 -(UIImage *)getThemeImage:(NSString *)imageName;
 -(UIColor *)getColorWithName:(NSString *)name;
 @end
+```
 
 ·ThemeLabel、 ThemeButton、 ThemeImageView 监听通知：
 
-[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(themeNotification:) name:kThemeDidChangeNotification object:nil];
+`[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(themeNotification:) name:kThemeDidChangeNotification object:nil];`
 
 ThemeLabel：
 
+```Objective-C
 - (void)themeNotification:(NSNotification *)notification {
     [self setColor];
 }
-
+```
 ThemeButton、 ThemeImageView：
-
+```Objective-C
 - (void)themeNotification:(NSNotification *)notification {
     [self loadThemeImage];
 }
-
+```
 ·点击切换主题Cell方法：
+```Objective-C
 // 保存当前选择的主题到本地
 [[NSUserDefaults standardUserDefaults] setObject:themeName forKey:kThemeName];
 [[NSUserDefaults standardUserDefaults] synchronize];
@@ -63,3 +66,4 @@ ThemeButton、 ThemeImageView：
 [ThemeManager shareInstance].themeName = themeName;
 // 发送一个kThemeDidChangeNotification的通知，切换主题
 [[NSNotificationCenter defaultCenter] postNotificationName:kThemeDidChangeNotification object:themeName];
+```
