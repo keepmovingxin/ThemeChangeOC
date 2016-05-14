@@ -1,5 +1,6 @@
 iOS 利用通知NSNotificationCenter和NSUserDefaults实现主题切换
 
+Blog:[iOS 实现主题切换](http://keepmovingxin.com/archives/17)
 1.效果图：
 <img src="https://github.com/liu1451182540/ThemeChangeOC/blob/master/demo.gif?2" alt="ThemeChange Screenshot" width="320" height="568" />
 
